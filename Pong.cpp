@@ -7,8 +7,8 @@
 
 Pong::Pong(sf::Vector2u windSize) {
     windowSize = windSize;
-    p1.setSize(sf::Vector2f(20, 100));
-    p2.setSize(sf::Vector2f(20, 100));
+    p1.setSize(sf::Vector2f(30, 100));
+    p2.setSize(sf::Vector2f(30, 100));
     ball.setRadius(10);
     increment=sf::Vector2f(0.1,0.1);
     delay=1.6;
